@@ -1,46 +1,150 @@
 *{
-    margin:0px;
-    padding: 0px;
+    margin:0;
+    padding: 0;
     
 }
 
-
-#margin-0 {
-    margin: 0px;
-}
-
-.index__principal{
+body{
     background-color: black;
-    height: 80vh;
-    padding: 20vh 0vh 0vh 0vh;
-    
 }
 
-.header{
-    height: 10vh;
-   
+/* Nav-bar Style para todas las paginas*/
 
-}
 
-.titulo{
-    color: blue;
-}
-
-.subtitulo{
-    color: brown;
-
-}
-/* Nav-bar Style */
 .nav-center {
     display: flex;
     justify-content: center;
 }
 .nav-item {
     font-size: 30px;
+    
 }
 
+.nav-link{
+    color: black;
+}
+
+/*header*/
+
+.header{
+    height: 10vh;
+    
+}
+
+.tituloPaginas{
+    padding: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
+.seccionTitulo{
+    padding: 0px;
+    border-style:groove;
+    border-color:black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+/*responsive*/
+@media (max-width:600px) {
+    /*header*/
+    .nav-link{
+        font-size: 10px;
+    }
+    
+    .titulo{     
+        font-size: 20px;
+    }
+    
+    .subtitulo{
+        font-size: 10px;
+
+    }
+
+
+}
+
+/*section principal*/
+/*INDEX*/
+.index__principal{
+    background-color:black;
+    height: 85vh;
+    padding: 20vh 0vh 0vh 0vh;
+    margin: 0px;
+}
+
+.titulo{
+    color: white;
+    font-size: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+/*pagina NOSOTROS*/
+.seccion__principal{
+    height: 85vh;
+    padding: 5vh 0vh 0vh 0vh;
+    margin: 0px;
+}
+
+.aside{
+    padding: 0px;
+    border-radius: 25px;
+    background-color: white;
+    border-color: black;
+    border-style: groove;
+}
+
+.navegador__lateral{
+    margin:100px 30px 30px 30px;
+}
+
+.seccionsubtitulo{
+    color: white;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+    border-color: white;
+    border-style: groove;
+    border-radius: 15px;
+    transform: translateY(10px);
+}
+
+.seccioncontenido{
+    padding: 60px;
+    color: white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    border-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    transform: translateY(50px);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 75%, rgba(0,212,255,1) 100%);
+
+}
+
+.iconovixion{
+    border-color: white;
+    border-style: groove;
+    border-radius: 15px;
+    transform: translateY(100px);
+    
+}
+
+/*footer*/
+
 footer{
-    padding-top: 20px;
+    padding: 5px;
+    height: 5vh;
+    background-color: white;
 }
 .icono{
     width: 30px;
