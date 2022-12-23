@@ -51,6 +51,7 @@ body{
         font-size: 10px;
     }
     
+
     .titulo{     
         font-size: 20px;
     }
@@ -66,21 +67,52 @@ body{
 .index__principal{
     background-color:black;
     height: 85vh;
-    padding: 20vh 0vh 0vh 0vh;
+    padding: 8vh 0vh 0vh 0vh;
     margin: 0px;
 }
 
 .titulo{
-    color: white;
+    height: 250px;
     font-size: 120px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-name: efecto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    
 }
 
-.subtitulo{
-    color: white;
-    font-size: 40px;
-    font-family:'Times New Roman', Times, serif;
+@keyframes efecto{
+    0%{
+        font-size: 50px;
+        background: linear-gradient(90deg,rgb(152, 215, 246)  0%, rgb(0, 234, 255)  35%,rgb(161, 161, 189) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    50%{
+        font-size: 80px;
+        background: linear-gradient(90deg,rgb(0, 234, 255)  0%,rgb(161, 161, 189) 35%, rgb(152, 215, 246)  100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+     }
+    100%{
+        font-size: 120px;
+        background: linear-gradient(90deg, rgb(161, 161, 189) 0%, rgb(152, 215, 246) 35%, rgb(0, 234, 255) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+}
 
+
+.subtitulo{
+    height: 150px;
+    color: white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    
 }
 
 /*pagina NOSOTROS*/
@@ -131,11 +163,27 @@ body{
 
 
 .iconovixion{
+
     border-color: white;
     border-style: groove;
     border-radius: 15px;
-    transform: translateY(100px);
-    
+    transform: translateY(80px);
+    animation-name: efecto_segundo;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes efecto_segundo{
+    0%{
+      height: 0vh;
+      width: 0vw;
+    }
+
+    100%{
+        height: 12vh;
+        width: 7vw;
+    }
 }
 
 
@@ -179,7 +227,11 @@ footer{
     height: 5vh;
     background-color: white;
 }
+
+
 .icono{
     width: 30px;
     height: 30px;
 }
+
+
