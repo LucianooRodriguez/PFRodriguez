@@ -16,6 +16,11 @@ body{
 }
 .nav-item {
     font-size: 30px;
+
+}
+.nav-item:hover{
+    transform: scale(1.1);
+
 }
 
 .nav-link{
@@ -35,6 +40,8 @@ body{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 .seccionTitulo{
     padding: 0px;
@@ -44,23 +51,7 @@ body{
     background-color: white;
 }
 
-/*responsive*/
-@media (max-width:600px) {
-    /*header*/
-    .nav-link{
-        font-size: 10px;
-    }
-    
 
-    .titulo{     
-        font-size: 20px;
-    }
-    
-    .subtitulo{
-        font-size: 10px;
-    }
-
-}
 
 /*section principal*/
 /*pagina HOME*/
@@ -71,7 +62,7 @@ body{
     margin: 0px;
 }
 
-.titulo{
+.mititulo{
     height: 250px;
     font-size: 120px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -104,7 +95,7 @@ body{
         -webkit-background-clip: text;
         background-clip: text;
     }
-}
+} 
 
 
 .subtitulo{
@@ -198,6 +189,14 @@ body{
     color: white;
 }
 
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 .seccioncontenido_grande{
     height: 50vh;
     padding: 10px;
@@ -224,7 +223,6 @@ body{
 
 footer{
     padding: 5px;
-    height: 5vh;
     background-color: white;
 }
 
@@ -235,3 +233,39 @@ footer{
 }
 
 
+/*responsive*/
+@media (max-width:600px) {
+    /*header*/
+    .nav-link{
+        font-size: 10px;
+    }
+    
+
+    @keyframes efecto{
+        0%{
+            font-size: 5px;
+            background: linear-gradient(90deg,rgb(152, 215, 246)  0%, rgb(0, 234, 255)  35%,rgb(161, 161, 189) 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        50%{
+            font-size: 15px;
+            background: linear-gradient(90deg,rgb(0, 234, 255)  0%,rgb(161, 161, 189) 35%, rgb(152, 215, 246)  100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+         }
+        100%{
+            font-size: 30px;
+            background: linear-gradient(90deg, rgb(161, 161, 189) 0%, rgb(152, 215, 246) 35%, rgb(0, 234, 255) 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    } 
+    .subtitulo{
+        font-size: 25px;
+    }
+
+}
