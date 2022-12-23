@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+}
+
+/* Nav-bar Style para todas las paginas*/
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+}
+.nav-item {
+    font-size: 30px;
+
+}
+.nav-item:hover{
+    transform: scale(1.1);
+
+}
+
+.nav-link{
+    color: black;
+}
+
+/*header*/
+
+.header{
+    height: 10vh;    
+}
+
+.tituloPaginas{
+    padding: 5px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.seccionTitulo{
+    padding: 0px;
+    border-style:groove;
+    border-color:black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+
+
+/*section principal*/
+/*pagina HOME*/
+.index__principal{
+    background-color:black;
+    height: 85vh;
+    padding: 8vh 0vh 0vh 0vh;
+    margin: 0px;
+}
+
+.mititulo{
+    height: 250px;
+    font-size: 120px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-name: efecto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    
+}
+
+@keyframes efecto{
+    0%{
+        font-size: 50px;
+        background: linear-gradient(90deg,rgb(152, 215, 246)  0%, rgb(0, 234, 255)  35%,rgb(161, 161, 189) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+    50%{
+        font-size: 80px;
+        background: linear-gradient(90deg,rgb(0, 234, 255)  0%,rgb(161, 161, 189) 35%, rgb(152, 215, 246)  100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+     }
+    100%{
+        font-size: 120px;
+        background: linear-gradient(90deg, rgb(161, 161, 189) 0%, rgb(152, 215, 246) 35%, rgb(0, 234, 255) 100%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+} 
+
+
+.subtitulo{
+    height: 150px;
+    color: white;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+/*pagina NOSOTROS*/
+.seccion__principal{
+    height: 85vh;
+    padding: 5vh 0vh 0vh 0vh;
+    margin: 0px;
+}
+
+.aside{
+    padding: 0px;
+    border-radius: 25px;
+    background-color: white;
+    border-color: black;
+    border-style: groove;
+}
+
+.navegador__lateral{
+    margin:100px 30px 30px 30px;
+}
+
+.seccionsubtitulo{
+    color: white;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+    border-color: white;
+    border-style: groove;
+    border-radius: 15px;
+    transform: translateY(10px);
+    background: rgb(0,19,36);
+    background: radial-gradient(circle, rgba(0,19,36,1) 0%, rgba(3,50,96,0) 46%, rgba(0,65,110,0.9164040616246498) 82%);
+}
+
+.seccioncontenido{
+    height: 40vh;
+    padding: 60px;
+    color: white;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    border-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    transform: translateY(50px);
+    background: rgb(0,19,36);
+    background: radial-gradient(circle, rgba(0,19,36,1) 0%, rgba(3,50,96,0) 46%, rgba(0,65,110,0.9164040616246498) 82%);
+}
+
+
+.iconovixion{
+
+    border-color: white;
+    border-style: groove;
+    border-radius: 15px;
+    transform: translateY(80px);
+    animation-name: efecto_segundo;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes efecto_segundo{
+    0%{
+      height: 0vh;
+      width: 0vw;
+    }
+
+    100%{
+        height: 12vh;
+        width: 7vw;
+    }
+}
+
+
+/*pagina Galeria y servicios*/
+
+.carousel{
+    height: 45vh;
+}
+.carousel-inner{
+    transform: translateY(100px);
+    font-size: 80px;
+    color: white;
+}
+
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.seccioncontenido_grande{
+    height: 50vh;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    border-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    transform: translateY(50px);
+    background: rgb(0,19,36);
+    background: radial-gradient(circle, rgba(0,19,36,1) 0%, rgba(3,50,96,0) 46%, rgba(0,65,110,0.9164040616246498) 82%);
+}
+
+.moverimagen{
+    transform: translateX(400px);
+}
+
+
+/*Para la pagina de contacto utilice clases que ya tenia armadas*/
+
+/*footer*/
+
+footer{
+    padding: 5px;
+    background-color: white;
+}
+
+
+.icono{
+    width: 30px;
+    height: 30px;
+}
+
+
+/*responsive*/
+@media (max-width:600px) {
+    /*header*/
+    .nav-link{
+        font-size: 10px;
+    }
+    
+
+    @keyframes efecto{
+        0%{
+            font-size: 5px;
+            background: linear-gradient(90deg,rgb(152, 215, 246)  0%, rgb(0, 234, 255)  35%,rgb(161, 161, 189) 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        50%{
+            font-size: 15px;
+            background: linear-gradient(90deg,rgb(0, 234, 255)  0%,rgb(161, 161, 189) 35%, rgb(152, 215, 246)  100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+         }
+        100%{
+            font-size: 30px;
+            background: linear-gradient(90deg, rgb(161, 161, 189) 0%, rgb(152, 215, 246) 35%, rgb(0, 234, 255) 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+    } 
+    .subtitulo{
+        font-size: 25px;
+    }
+
+}
