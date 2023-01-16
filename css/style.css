@@ -127,6 +127,9 @@ body{
     width: 15vw;
 }
 
+
+
+
 .navegador__lateral{
     margin:150px 30px 30px 30px;
 }
@@ -190,14 +193,8 @@ body{
     height: 45vh;
 }
 
-.servicios{
-    font-size: 80px;
-    padding-top: 50px;
-}
-
 .carousel-inner{
-    transform: translateY(100px);
-   
+    transform: translateY(140px);
 }
 
 
@@ -223,18 +220,12 @@ body{
 }
 
 /*carrusel*/
-.moverimagen{
-    transform: translateX(500px);
-}
-
 
 /*Para la pagina de contacto use clases ya armadas, mas las siguientes*/
 .redessociales{
     background-color: white;
     width: 150px;
     height: 65px;
-    /* padding: 0px;
-    margin-left: 600px; */
     border-radius: 15px;
     transform: translateX(600px);
 }
@@ -275,22 +266,22 @@ footer{
     /*navegador lateral*/
 
     .nav-link{
-        font-size: 5px;
-        transform: translateX(-30px);
+        font-size: 15px;
+        
 
     }
 
     /*home*/
 
     .tituloPaginas{
-        padding: 5px;
+        padding-top: 15px;
         background: rgb(2,0,36);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
         background-clip: text;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
+        font-size: 30px;
         
     }
     .seccionTitulo{
@@ -367,14 +358,9 @@ footer{
         height: 45vh;
     }
 
-    .servicios{
-        font-size: 15px;
-        padding-top: 115px;
-
-    }
 
     .carousel-inner{
-        transform: translateY(60px);
+        transform: translateY(140px);
         color: white;
     }
 
@@ -391,7 +377,7 @@ footer{
 
    
     .seccioncontenido_grande{
-        height: 60vh;
+        height: 70vh;
         padding: 5px;
         color: white;
         font-size: 20px;
