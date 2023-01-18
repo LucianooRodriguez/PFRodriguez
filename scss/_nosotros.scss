@@ -3,41 +3,6 @@
 @import"./particiones/main";
 @import "./particiones/footer";
 
-.seccion__principal {
-    height: 85vh;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 0px; 
-}
-
-.aside {
-    margin-left: 15px;
-    padding: 0px;
-    border-radius: 25px;
-    background: #001324;
-    background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%);
-    border-color: black;
-    border-style: groove;
-    width: 15vw; 
-}
-
-.navegador__lateral {
-  margin: 120px 30px 30px 30px; 
-}
-  
-.seccionsubtitulo {
-    margin-left: 100px;
-    color: white;
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
-    border-color: white;
-    border-style: groove;
-    border-radius: 15px;
-    transform: translateY(10px);
-    background: #001324;
-    background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); 
-}
-  
 .seccioncontenido {
     margin-left: 100px;
     height: 40vh;
@@ -75,13 +40,6 @@
 }
 
 @media (max-width: 600px) {
-      .seccion__principal{
-        padding: 0px;
-        height: 80vh;
-      }
-      .seccionsubtitulo {
-        margin: 0px;
-        font-size: 20px; }
       .seccioncontenido {
         margin: 0px;
         font-size: 20px;
@@ -96,6 +54,6 @@
           height: 0vh;
           width: 0vw; }
         100% {
-          height: 6vh;
+          height: 8vh;
           width: 14vw; } }
 }

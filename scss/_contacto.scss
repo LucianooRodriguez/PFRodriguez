@@ -3,17 +3,21 @@
 @import"./particiones/main";
 @import "./particiones/footer";
 
+.seccioncontenido_grande{
+    align-items: center;
+}
+
+
 .redessociales {
     background-color: white;
-    width: 150px;
+    width: 170px;
     height: 65px;
     border-radius: 15px;
-    align-items: center;
 }
   
 .fuenteContacto {
     font-size: 25px;
-    margin-top: 45px; 
+    margin-top: 45px;
 }
 
 @media (max-width: 600px) {
@@ -24,10 +28,15 @@
 
     .redessociales {
         background-color: white;
-        width: 80px;
-        height: 35px;
-        border-radius: 15px;
-        transform: translateX(50px); }
+        width: 100px;
+        height: 25px;
+    }
+    
+    .icono{
+        height: 18px;
+        width: 18px;
+    }
+
     .fuenteContacto {
         font-size: 15px;
         margin-top: 15px; }
