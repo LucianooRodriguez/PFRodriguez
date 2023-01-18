@@ -1,0 +1,28 @@
+@import"./particiones/variables";
+@import"./particiones/header";
+@import"./particiones/main";
+@import "./particiones/footer";
+
+.moverimagen{
+    height:45vh;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 25px;
+}
+
+@media (max-width: 600px) {
+    .moverimagen {
+        align-items: center;
+        width: 60%;
+        height: 60%; 
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    iframe {
+        width: 25vw;
+        height: 30vw;
+        margin-top: 15px; }
+
+}

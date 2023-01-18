@@ -1,0 +1,92 @@
+@import"./particiones/variables";
+@import"./particiones/header";
+@import"./particiones/main";
+@import "./particiones/footer";
+
+.seccion__principal {
+    background-color: black;
+    height: 85vh;
+    padding: 8vh 0vh 0vh 0vh;
+    margin: 0px; 
+}
+  
+.mititulo {
+    height: 250px;
+    font-size: 125px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation-name: efecto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in; 
+}  
+
+@keyframes efecto {
+    0% {
+      font-size: 50px;
+      background: linear-gradient(90deg, #98d7f6 0%, #00eaff 35%, #a1a1bd 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    50% {
+      font-size: 80px;
+      background: linear-gradient(90deg, #00eaff 0%, #a1a1bd 35%, #98d7f6 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    100% {
+      font-size: 120px;
+      background: linear-gradient(90deg, #a1a1bd 0%, #98d7f6 35%, #00eaff 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; } 
+}
+  
+.subtitulo {
+  height: 150px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+
+    
+@media (max-width: 600px) {
+  .tituloPaginas {
+    padding-top: 15px;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px; }
+  .seccionTitulo {
+    padding: 0px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 25px;
+    background-color: white; }
+  @keyframes efecto {
+    0% {
+      font-size: 5px;
+      background: linear-gradient(90deg, #98d7f6 0%, #00eaff 35%, #a1a1bd 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    50% {
+      font-size: 15px;
+      background: linear-gradient(90deg, #00eaff 0%, #a1a1bd 35%, #98d7f6 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    100% {
+      font-size: 30px;
+      background: linear-gradient(90deg, #a1a1bd 0%, #98d7f6 35%, #00eaff 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; } }
+  .subtitulo {
+    font-size: 25px; }
+
+
+}

@@ -1,0 +1,40 @@
+@import "./inicio";
+@import "./nosotros";
+@import "./servicios";
+@import "./galeria";
+@import "./contacto";
+
+*{
+    margin: 0;
+    padding: 0; }
+  
+body {
+    background-color: black; 
+}
+  
+/* Nav-bar Style para todas las paginas*/
+.nav-center {
+    display: flex;
+    justify-content: center; 
+}
+  
+.nav-item {
+    font-size: 25px; 
+}
+  
+.nav-item:hover {
+    transform: scale(1.1); 
+}
+  
+.nav-link {
+    color: white; 
+}
+  
+.nav_index {
+    color: black; 
+}
+
+@media (max-width: 600px) {
+    .nav-link {
+        font-size: 15px; }
+}

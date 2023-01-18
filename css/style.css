@@ -1,444 +1,416 @@
-*{
-    margin:0;
-    padding: 0;
-    
-}
+.header {
+  height: 10vh; }
+  .header .tituloPaginas {
+    padding: 15px;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
 
-body{
-    background-color: black;
-}
+.seccionTitulo {
+  padding: 0px;
+  border-color: black;
+  border-radius: 25px;
+  background-color: white;
+  border-style: groove; }
 
-/* Nav-bar Style para todas las paginas*/
+footer {
+  background-color: white; }
 
-.nav-center {
-    display: flex;
-    justify-content: center;
-}
-.nav-item {
-    font-size: 30px;
+.icono {
+  width: 30px;
+  height: 30px; }
 
-}
-.nav-item:hover{
-    transform: scale(1.1);
+.seccion__principal {
+  background-color: black;
+  height: 85vh;
+  padding: 8vh 0vh 0vh 0vh;
+  margin: 0px; }
 
-}
+.mititulo {
+  height: 250px;
+  font-size: 125px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  animation-name: efecto;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in; }
 
-.nav-link{
-    color: white;
-}
+@keyframes efecto {
+  0% {
+    font-size: 50px;
+    background: linear-gradient(90deg, #98d7f6 0%, #00eaff 35%, #a1a1bd 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; }
+  50% {
+    font-size: 80px;
+    background: linear-gradient(90deg, #00eaff 0%, #a1a1bd 35%, #98d7f6 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; }
+  100% {
+    font-size: 120px;
+    background: linear-gradient(90deg, #a1a1bd 0%, #98d7f6 35%, #00eaff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text; } }
 
-.nav_index{
-    color:black;
-}
-/*header*/
+.subtitulo {
+  height: 150px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif; }
 
-.header{
-    height: 10vh;    
-}
-
-.tituloPaginas{
-    padding: 5px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+@media (max-width: 600px) {
+  .tituloPaginas {
+    padding-top: 15px;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-.seccionTitulo{
+    font-size: 20px; }
+  .seccionTitulo {
     padding: 0px;
-    border-style:groove;
-    border-color:black;
-    border-radius: 25px;
-    background-color: white;
-}
-
-
-
-/*section principal*/
-/*pagina HOME*/
-.index__principal{
-    background-color:black;
-    height: 85vh;
-    padding: 8vh 0vh 0vh 0vh;
-    margin: 0px;
-}
-
-.mititulo{
-    height: 250px;
-    font-size: 120px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    animation-name: efecto;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    
-}
-
-@keyframes efecto{
-    0%{
-        font-size: 50px;
-        background: linear-gradient(90deg,rgb(152, 215, 246)  0%, rgb(0, 234, 255)  35%,rgb(161, 161, 189) 100%);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
-    }
-    50%{
-        font-size: 80px;
-        background: linear-gradient(90deg,rgb(0, 234, 255)  0%,rgb(161, 161, 189) 35%, rgb(152, 215, 246)  100%);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
-     }
-    100%{
-        font-size: 120px;
-        background: linear-gradient(90deg, rgb(161, 161, 189) 0%, rgb(152, 215, 246) 35%, rgb(0, 234, 255) 100%);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
-    }
-} 
-
-
-.subtitulo{
-    height: 150px;
-    color: white;
-    font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
-    
-}
-
-/*pagina NOSOTROS*/
-.seccion__principal{
-    height: 85vh;
-    padding: 0vh 0vh 0vh 0vh;
-    margin: 0px;
-}
-
-.aside{
-    margin-left: 15px;
-    padding: 0px;
-    border-radius: 25px;
-    background: rgb(0,19,36);
-    background: radial-gradient(circle, rgba(0,19,36,1) 0%, rgba(3,50,96,0) 46%, rgba(0,65,110,0.9164040616246498) 82%);
+    border-style: groove;
     border-color: black;
-    border-style: groove;
-    width: 15vw;
-}
+    border-radius: 25px;
+    background-color: white; }
+  @keyframes efecto {
+    0% {
+      font-size: 5px;
+      background: linear-gradient(90deg, #98d7f6 0%, #00eaff 35%, #a1a1bd 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    50% {
+      font-size: 15px;
+      background: linear-gradient(90deg, #00eaff 0%, #a1a1bd 35%, #98d7f6 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; }
+    100% {
+      font-size: 30px;
+      background: linear-gradient(90deg, #a1a1bd 0%, #98d7f6 35%, #00eaff 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text; } }
+  .subtitulo {
+    font-size: 25px; } }
 
+.header {
+  height: 10vh; }
+  .header .tituloPaginas {
+    padding: 15px;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
 
+.seccionTitulo {
+  padding: 0px;
+  border-color: black;
+  border-radius: 25px;
+  background-color: white;
+  border-style: groove; }
 
+footer {
+  background-color: white; }
 
-.navegador__lateral{
-    margin:150px 30px 30px 30px;
-}
+.icono {
+  width: 30px;
+  height: 30px; }
 
-.seccionsubtitulo{
-    color: white;
-    font-size: 45px;
-    font-family:'Times New Roman', Times, serif;
-    border-color: white;
-    border-style: groove;
-    border-radius: 15px;
-    transform: translateY(10px);
-    background: rgb(0,19,36);
-    background: radial-gradient(circle, rgba(0,19,36,1) 0%, rgba(3,50,96,0) 46%, rgba(0,65,110,0.9164040616246498) 82%);
-}
+.seccion__principal {
+  height: 85vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0px; }
 
-.seccioncontenido{
-    height: 40vh;
-    padding: 60px;
-    color: white;
-    font-size: 35px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: italic;
-    border-color: white;
-    border-style: groove;
-    border-radius: 10px;
-    transform: translateY(15px);
-    background: rgb(0,19,36);
-    background: radial-gradient(circle, rgba(0,19,36,1) 0%, rgba(3,50,96,0) 46%, rgba(0,65,110,0.9164040616246498) 82%);
-}
+.aside {
+  margin-left: 15px;
+  padding: 0px;
+  border-radius: 25px;
+  background: #001324;
+  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%);
+  border-color: black;
+  border-style: groove;
+  width: 15vw; }
 
+.navegador__lateral {
+  margin: 120px 30px 30px 30px; }
 
-.iconovixion{
+.seccionsubtitulo {
+  margin-left: 100px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  border-color: white;
+  border-style: groove;
+  border-radius: 15px;
+  transform: translateY(10px);
+  background: #001324;
+  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); }
 
-    border-color: white;
-    border-style: groove;
-    border-radius: 15px;
-    transform: translateY(80px);
+.seccioncontenido {
+  margin-left: 100px;
+  height: 40vh;
+  padding: 60px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  border-color: white;
+  border-style: groove;
+  border-radius: 10px;
+  transform: translateY(15px);
+  background: #001324;
+  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); }
+
+.iconovixion {
+  border-color: white;
+  border-style: groove;
+  border-radius: 15px;
+  transform: translateY(50px);
+  animation-name: efecto_segundo;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards; }
+
+@keyframes efecto_segundo {
+  0% {
+    height: 0vh;
+    width: 0vw; }
+  100% {
+    height: 12vh;
+    width: 7vw; } }
+
+@media (max-width: 600px) {
+  .seccion__principal {
+    padding: 0px;
+    height: 80vh; }
+  .seccionsubtitulo {
+    margin: 0px;
+    font-size: 20px; }
+  .seccioncontenido {
+    margin: 0px;
+    font-size: 20px;
+    padding: 0px; }
+  .iconovixion {
     animation-name: efecto_segundo;
     animation-duration: 2s;
     animation-timing-function: ease-in;
-    animation-fill-mode: forwards;
-}
-
-@keyframes efecto_segundo{
-    0%{
+    animation-fill-mode: forwards; }
+  @keyframes efecto_segundo {
+    0% {
       height: 0vh;
-      width: 0vw;
-    }
+      width: 0vw; }
+    100% {
+      height: 6vh;
+      width: 14vw; } } }
 
-    100%{
-        height: 12vh;
-        width: 7vw;
-    }
-}
+.header {
+  height: 10vh; }
+  .header .tituloPaginas {
+    padding: 15px;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
 
+.seccionTitulo {
+  padding: 0px;
+  border-color: black;
+  border-radius: 25px;
+  background-color: white;
+  border-style: groove; }
 
-/*pagina Galeria y servicios*/
+footer {
+  background-color: white; }
 
-.carousel{
-    height: 45vh;
-}
+.icono {
+  width: 30px;
+  height: 30px; }
 
-.carousel-inner{
-    transform: translateY(140px);
-}
+.carousel {
+  height: 45vh; }
 
+.servicios {
+  transform: translateY(140px); }
 
 .card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 100%; }
+
+.seccioncontenido_grande {
+  margin-left: 100px;
+  height: 50vh;
+  padding: 10px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  border-color: white;
+  border-style: groove;
+  border-radius: 10px;
+  transform: translateY(50px);
+  background: #001324;
+  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); }
+
+@media (max-width: 600px) {
+  .carousel {
+    height: 45vh; }
+  .carousel-inner {
+    transform: translateY(140px);
+    color: white; }
+  .card-img-top {
     object-fit: cover;
     width: 100%;
-    height: 100%;
-}
-
-.seccioncontenido_grande{
-    height: 50vh;
-    padding: 10px;
+    height: 100%; }
+  .form {
+    height: 40vh;
+    width: 50vw; }
+  .seccioncontenido_grande {
+    margin-left: 0px;
+    height: 55vh;
+    padding: 5px;
     color: white;
-    font-size: 40px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     border-color: white;
     border-style: groove;
     border-radius: 10px;
-    transform: translateY(50px);
-    background: rgb(0,19,36);
-    background: radial-gradient(circle, rgba(0,19,36,1) 0%, rgba(3,50,96,0) 46%, rgba(0,65,110,0.9164040616246498) 82%);
-}
+    transform: translateY(25px);
+    background: #001324;
+    background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); } }
 
-/*carrusel*/
+.header {
+  height: 10vh; }
+  .header .tituloPaginas {
+    padding: 15px;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
 
-/*Para la pagina de contacto use clases ya armadas, mas las siguientes*/
-.redessociales{
+.seccionTitulo {
+  padding: 0px;
+  border-color: black;
+  border-radius: 25px;
+  background-color: white;
+  border-style: groove; }
+
+footer {
+  background-color: white; }
+
+.icono {
+  width: 30px;
+  height: 30px; }
+
+.moverimagen {
+  height: 45vh;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 25px; }
+
+@media (max-width: 600px) {
+  .moverimagen {
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    margin: 0px;
+    padding: 0px; }
+  iframe {
+    width: 25vw;
+    height: 30vw;
+    margin-top: 15px; } }
+
+.header {
+  height: 10vh; }
+  .header .tituloPaginas {
+    padding: 15px;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.seccionTitulo {
+  padding: 0px;
+  border-color: black;
+  border-radius: 25px;
+  background-color: white;
+  border-style: groove; }
+
+footer {
+  background-color: white; }
+
+.icono {
+  width: 30px;
+  height: 30px; }
+
+.redessociales {
+  background-color: white;
+  width: 150px;
+  height: 65px;
+  border-radius: 15px;
+  align-items: center; }
+
+.fuenteContacto {
+  font-size: 25px;
+  margin-top: 45px; }
+
+@media (max-width: 600px) {
+  .seccioncontenido_grande {
+    height: 65vh; }
+  .redessociales {
     background-color: white;
-    width: 150px;
-    height: 65px;
+    width: 80px;
+    height: 35px;
     border-radius: 15px;
-    transform: translateX(600px);
-}
+    transform: translateX(50px); }
+  .fuenteContacto {
+    font-size: 15px;
+    margin-top: 15px; } }
 
-.fuenteContacto{
-    font-size: 25px;
-    margin-top: 45px;
-}
+* {
+  margin: 0;
+  padding: 0; }
 
-/*footer*/
+body {
+  background-color: black; }
 
-footer{  
-    background-color: white;
-}
+/* Nav-bar Style para todas las paginas*/
+.nav-center {
+  display: flex;
+  justify-content: center; }
 
-.icono{
-    width: 30px;
-    height: 30px;
-}
+.nav-item {
+  font-size: 25px; }
 
+.nav-item:hover {
+  transform: scale(1.1); }
 
+.nav-link {
+  color: white; }
 
+.nav_index {
+  color: black; }
 
-
-
-
-
-/*RESPONSIVE TOTAL*/
-
-
-@media (max-width:600px ) {
-    /*header*/
-    .header{
-        height: 10vh;    
-    }
-
-
-    /*navegador lateral*/
-
-    .nav-link{
-        font-size: 15px;
-        
-
-    }
-
-    /*home*/
-
-    .tituloPaginas{
-        padding-top: 15px;
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 30px;
-        
-    }
-    .seccionTitulo{
-        padding: 0px;
-        border-style:groove;
-        border-color:black;
-        border-radius: 25px;
-        background-color: white;
-    }
-    
-    @keyframes efecto{
-        0%{
-            font-size: 5px;
-            background: linear-gradient(90deg,rgb(152, 215, 246)  0%, rgb(0, 234, 255)  35%,rgb(161, 161, 189) 100%);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-        }
-        50%{
-            font-size: 15px;
-            background: linear-gradient(90deg,rgb(0, 234, 255)  0%,rgb(161, 161, 189) 35%, rgb(152, 215, 246)  100%);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-         }
-        100%{
-            font-size: 30px;
-            background: linear-gradient(90deg, rgb(161, 161, 189) 0%, rgb(152, 215, 246) 35%, rgb(0, 234, 255) 100%);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
-            background-clip: text;
-        }
-    } 
-    .subtitulo{
-        font-size: 25px;
-    }
-
-
-    /*pagina Nosotros*/
-    .seccionsubtitulo{
-        font-size: 10px;
-    }
-
-    .seccioncontenido{
-        font-size: 15px;
-        padding: 20px;
-    }
-
-
-    .iconovixion{
-        animation-name: efecto_segundo;
-        animation-duration: 2s;
-        animation-timing-function: ease-in;
-        animation-fill-mode: forwards;
-    }
-    
-    @keyframes efecto_segundo{
-        0%{
-          height: 0vh;
-          width: 0vw;
-        }
-    
-        100%{
-            height: 6vh;
-            width: 14vw;
-        }
-    }
-
-
-
-    /*pagina Galeria y servicios*/
-
-    .carousel{
-        height: 45vh;
-    }
-
-
-    .carousel-inner{
-        transform: translateY(140px);
-        color: white;
-    }
-
-    .card-img-top {
-        object-fit: cover;
-        width: 100%;
-        height: 100%;        
-    }
-    
-    .form{
-        height: 40vh;
-        width: 50vw;
-    }
-
-   
-    .seccioncontenido_grande{
-        height: 70vh;
-        padding: 5px;
-        color: white;
-        font-size: 20px;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-style: italic;
-        border-color: white;
-        border-style: groove;
-        border-radius: 10px;
-        transform: translateY(25px);
-        background: rgb(0,19,36);
-        background: radial-gradient(circle, rgba(0,19,36,1) 0%, rgba(3,50,96,0) 46%, rgba(0,65,110,0.9164040616246498) 82%);
-    } 
-    
-    
-
-    /*carrusel*/
-    .moverimagen{
-        transform: translateX(100px);
-        padding-top: 110px;
-    }
-
-    iframe{
-        width: 25vw;
-        height: 30vw;
-        margin-top: 40px;
-    }
-
-
-
-    /*pagina contacto responsive*/
-
-    .redessociales{
-        background-color: white;
-        width: 80px;
-        height: 35px;
-        border-radius: 15px;
-        transform: translateX(50px);
-    } 
-    
-    .fuenteContacto{
-        font-size: 10px;
-        margin-top: 15px;
-    }
-
-
-
-
-    /*footer responsive*/
-    footer{
-    
-        background-color: white;
-        
-    }
-    
-    .icono{
-        width: 10px;
-        height: 10px;
-    }
-    
-    
-
-
-
-}
+@media (max-width: 600px) {
+  .nav-link {
+    font-size: 15px; } }

@@ -1,0 +1,64 @@
+@import"./particiones/variables";
+@import"./particiones/header";
+@import"./particiones/main";
+@import "./particiones/footer";
+
+.carousel {
+    height: 45vh; 
+}
+  
+.servicios {
+    transform: translateY(140px); 
+}
+  
+.card-img-top {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; 
+}
+  
+.seccioncontenido_grande {
+    margin-left: 100px;
+    height: 50vh;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    border-color: white;
+    border-style: groove;
+    border-radius: 10px;
+    transform: translateY(50px);
+    background: #001324;
+    background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%);
+}
+
+@media (max-width: 600px) {
+    .carousel {
+        height: 45vh; }
+    .carousel-inner {
+        transform: translateY(140px);
+        color: white; }
+    .card-img-top {
+        object-fit: cover;
+        width: 100%;
+        height: 100%; }
+    .form {
+        height: 40vh;
+        width: 50vw; }
+    .seccioncontenido_grande {
+        margin-left: 0px;
+        height: 55vh;
+        padding: 5px;
+        color: white;
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        border-color: white;
+        border-style: groove;
+        border-radius: 10px;
+        transform: translateY(25px);
+        background: #001324;
+        background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); }
+    
+}
