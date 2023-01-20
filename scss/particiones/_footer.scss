@@ -3,7 +3,6 @@ footer{
     
 }
 .icono{
-    width: 30px;
-    height: 30px;
+    @include size(30px, 30px);
 }
 

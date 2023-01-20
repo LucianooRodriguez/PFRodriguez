@@ -116,7 +116,6 @@ footer {
   .seccionTitulo {
     padding: 0px;
     border-style: groove;
-    border-color: black;
     border-radius: 25px;
     background-color: white; }
   @keyframes efecto {
@@ -232,11 +231,11 @@ footer {
 
 @keyframes efecto_segundo {
   0% {
-    height: 0vh;
-    width: 0vw; }
+    width: 0vw;
+    height: 0vh; }
   100% {
-    height: 12vh;
-    width: 7vw; } }
+    width: 7vw;
+    height: 12vh; } }
 
 @media (max-width: 992px) {
   .seccioncontenido {
@@ -250,11 +249,11 @@ footer {
     animation-fill-mode: forwards; }
   @keyframes efecto_segundo {
     0% {
-      height: 0vh;
-      width: 0vw; }
+      width: 0vw;
+      height: 0vh; }
     100% {
-      height: 8vh;
-      width: 14vw; } } }
+      width: 14vw;
+      height: 8vh; } } }
 
 .header {
   height: 10vh; }
@@ -357,8 +356,8 @@ footer {
     width: 100%;
     height: 100%; }
   .form {
-    height: 40vh;
-    width: 50vw; }
+    width: 50vw;
+    height: 40vh; }
   .seccioncontenido_grande {
     margin-left: 0px;
     height: 55vh;
@@ -453,8 +452,8 @@ footer {
     margin: 0px;
     padding: 0px; }
   iframe {
-    width: 25vw;
-    height: 30vw;
+    width: 50vw;
+    height: 20vh;
     margin-top: 15px; } }
 
 .header {
@@ -542,8 +541,8 @@ footer {
     width: 100px;
     height: 25px; }
   .icono {
-    height: 18px;
-    width: 18px; }
+    width: 18px;
+    height: 18px; }
   .fuenteContacto {
     font-size: 15px;
     margin-top: 15px; } }

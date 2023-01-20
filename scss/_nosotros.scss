@@ -1,4 +1,5 @@
 @import"./particiones/variables";
+@import"./particiones/mixins";
 @import"./particiones/header";
 @import"./particiones/main";
 @import "./particiones/footer";
@@ -12,7 +13,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     border-color: white;
-    border-style: groove;
+    border-style: $border-style;
     border-radius: 10px;
     transform: translateY(15px);
     background: #001324;
@@ -21,7 +22,7 @@
 
 .iconovixion {
     border-color: white;
-    border-style: groove;
+    border-style: $border-style;
     border-radius: 15px;
     transform: translateY(50px);
     animation-name: efecto_segundo;
@@ -32,11 +33,9 @@
   
 @keyframes efecto_segundo {
     0% {
-      height: 0vh;
-      width: 0vw; }
+      @include size(0vw, 0vh); }
     100% {
-      height: 12vh;
-      width: 7vw; } 
+      @include size(7vw, 12vh); } 
 }
 
 @media (max-width: 992px) {
@@ -51,9 +50,7 @@
         animation-fill-mode: forwards; }
       @keyframes efecto_segundo {
         0% {
-          height: 0vh;
-          width: 0vw; }
+          @include size(0vw, 0vh); }
         100% {
-          height: 8vh;
-          width: 14vw; } }
+          @include size(14vw, 8vh);; } }
 }

@@ -1,4 +1,5 @@
 @import"./particiones/variables";
+@import"./particiones/mixins";
 @import"./particiones/header";
 @import"./particiones/main";
 @import "./particiones/footer";
@@ -13,8 +14,7 @@
   
 .card-img-top {
     object-fit: cover;
-    width: 100%;
-    height: 100%; 
+    @include size(100%,100%); 
 }
   
 .seccioncontenido_grande {
@@ -26,7 +26,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     border-color: white;
-    border-style: groove;
+    border-style: $border-style;
     border-radius: 10px;
     transform: translateY(50px);
     background: #001324;
@@ -41,11 +41,9 @@
         color: white; }
     .card-img-top {
         object-fit: cover;
-        width: 100%;
-        height: 100%; }
+        @include size(100%, 100%); }
     .form {
-        height: 40vh;
-        width: 50vw; }
+        @include size(50vw, 40vh); }
     .seccioncontenido_grande {
         margin-left: 0px;
         height: 55vh;
@@ -55,7 +53,7 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-style: italic;
         border-color: white;
-        border-style: groove;
+        border-style: $border-style;
         border-radius: 10px;
         transform: translateY(25px);
         background: #001324;
