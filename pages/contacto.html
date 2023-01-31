@@ -11,7 +11,102 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header class="text-center bg-light seccionTitulo">
+    <header class="fixed-top text-center">
+        <!-- Barra de navegacion -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid seccionTitulo">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div>
+                    <a href="../index.html" target="_blank"><img src="../assets/icons/IconoVixion.jpeg" alt="logo_enlace_inicio" class="icono_Vixion"></a>
+                </div>
+                <div class="collapse navbar-collapse nav-center" id="navbarSupportedContent">
+                    
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link nav_index" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_index" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_index" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_index" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="d-flex justify-content-center seccion__principal align-items-center">
+            <img src="../assets/images/Img3.jpg" class="imagen_FondoGeneral" alt="imagenFondoGeneral"> 
+            
+            <article class="form container-fluid row d-flex justify-content-center text-center">
+                <p>Formulario de contacto</p>
+                
+                <form class="container-fluid row d-flex justify-content-center">
+                    <div class="col-lg-9">
+                        <label class="visually-hidden" for="specificSizeInputName">Nombres</label>
+                        <input type="text" class="form-control" id="specificSizeInputName" placeholder="Escriba sus nombres">
+                    </div>
+                    <div class="col-lg-9 ">
+                        <label class="visually-hidden" for="specificSizeInputName">Apellidos</label>
+                        <input type="text" class="form-control" id="specificSizeInputName" placeholder="Escriba sus apellidos">
+                    </div>
+                    <div class="col-lg-5">
+                        <label class="visually-hidden" for="specificSizeInputName">Email</label>
+                        <input type="text" class="form-control" id="specificSizeInputName" placeholder="email">
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="visually-hidden input" for="specificSizeInputGroupUsername">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-text">@</div>
+                            <input type="text" class="form-control input" id="specificSizeInputGroupUsername" placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <label class="visually-hidden" for="specificSizeSelect">Preference</label>
+                        <select class="form-select input" id="specificSizeSelect">
+                            <option selected>Genero</option>
+                            <option value="1">Mujer</option>
+                            <option value="2">Hombre</option>
+                        </select>
+                    </div>
+                    <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+                
+            </article>
+        
+
+        </section>
+        
+    </main>
+    <footer class="fixed-bottom text-center">
+        <a href="https://instagram.com/vixion.audiovisual?igshid=NTdlMDg3MTY=" target="_blank"><img src="../assets/icons/IconoInstagram.jpg" alt="logo_enlace_Instagram" class="icono"></a>
+        <a href="https://www.youtube.com/@vixionaudiovisual7997" target="_blank"><img src="../assets/icons/IconoYoutube.jpg" alt="logo_enlace_Youtube" class="icono"></a>
+        <a href="https://api.whatsapp.com/send/?phone=541137751047" target="_blank"><img src="../assets/icons/IconoWpp.jpg" alt="logo_enlace_WhatsApp" class="icono"></a>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- <header class="text-center bg-light seccionTitulo">
         <h1 class="text-center tituloPaginas d-none d-lg-block">
             Vixion AudioVisual
         </h1>
@@ -128,7 +223,7 @@
         <a href="https://instagram.com/vixion.audiovisual?igshid=NTdlMDg3MTY=" target="_blank"><img src="../assets/icons/IconoInstagram.jpg" alt="logo" class="icono"></a>
         <a href="https://www.youtube.com/@vixionaudiovisual7997" target="_blank"><img src="../assets/icons/IconoYoutube.jpg" alt="logo" class="icono"></a>
         <a href="https://api.whatsapp.com/send/?phone=541137751047" target="_blank"><img src="../assets/icons/IconoWpp.jpg" alt="logo" class="icono"></a>
-    </footer>
+    </footer> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

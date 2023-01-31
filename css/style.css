@@ -41,7 +41,7 @@
 @media (max-width: 992px) {
   .seccion__principal {
     padding: 0px;
-    height: 80vh; }
+    height: 90vh; }
   .seccionsubtitulo {
     margin: 0px;
     font-size: 20px; } }
@@ -58,12 +58,19 @@ footer {
 @media (max-width: 992px) {
   .seccionTitulo {
     padding: 0px;
-    border-style: groove;
-    border-radius: 25px; }
-  .imagenFondo {
-    padding-top: 20vh;
-    width: 90vw;
-    height: 70vh; } }
+    border-radius: 25px;
+    margin-right: 5px;
+    margin-left: 5px; }
+  .imagen_FondoIndex {
+    padding-top: 15vh;
+    width: 80vw;
+    height: 85vh; } }
+
+@media (max-width: 600px) {
+  .imagen_FondoIndex {
+    padding-top: 25vh;
+    width: 85vw;
+    height: 75vh; } }
 
 .tituloPaginas {
   padding: 15px;
@@ -108,7 +115,7 @@ footer {
 @media (max-width: 992px) {
   .seccion__principal {
     padding: 0px;
-    height: 80vh; }
+    height: 90vh; }
   .seccionsubtitulo {
     margin: 0px;
     font-size: 20px; } }
@@ -216,7 +223,7 @@ footer {
 @media (max-width: 992px) {
   .seccion__principal {
     padding: 0px;
-    height: 80vh; }
+    height: 90vh; }
   .seccionsubtitulo {
     margin: 0px;
     font-size: 20px; } }
@@ -327,7 +334,7 @@ footer {
 @media (max-width: 992px) {
   .seccion__principal {
     padding: 0px;
-    height: 80vh; }
+    height: 90vh; }
   .seccionsubtitulo {
     margin: 0px;
     font-size: 20px; } }
@@ -403,7 +410,7 @@ footer {
 @media (max-width: 992px) {
   .seccion__principal {
     padding: 0px;
-    height: 80vh; }
+    height: 90vh; }
   .seccionsubtitulo {
     margin: 0px;
     font-size: 20px; } }
@@ -417,12 +424,35 @@ footer {
   width: 30px;
   height: 30px; }
 
-.seccioncontenido_grande {
-  align-items: center; }
+.form {
+  padding: 15px;
+  width: 30vw;
+  height: 45vh;
+  background-color: white;
+  opacity: 95%;
+  position: sticky;
+  border-radius: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.imagen_FondoGeneral {
+  border-radius: 15px;
+  width: 70vw;
+  height: 80vh;
+  position: fixed;
+  opacity: 90%; }
 
 @media (max-width: 992px) {
-  .seccioncontenido_grande {
-    height: 65vh; }
+  .form {
+    width: 30vw;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.685);
+    position: sticky; }
+  .imagen_FondoGeneral {
+    border-radius: 15px;
+    width: 80vw;
+    height: 60vh;
+    position: fixed;
+    opacity: 90%; }
   .icono {
     width: 18px;
     height: 18px; } }
@@ -447,6 +477,15 @@ footer {
 
 .nav_index {
   color: black; }
+
+.icono_Vixion {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px; }
+
+.icono_Vixion:hover {
+  transform: scale(1.1);
+  border-radius: 25px; }
 
 @media (max-width: 992px) {
   .nav-link {
