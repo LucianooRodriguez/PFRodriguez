@@ -1,8 +1,10 @@
 footer{
-    background-color: white;
-    
+    background-color: $color-blanco;
+    height: 10vh;
+    padding-top: 3vh;
 }
 .icono{
     @include size(30px, 30px);
 }
+
 

@@ -9,33 +9,14 @@
 }
 
 
-.redessociales {
-    background-color: white;
-    @include size(170px, 65px);
-    border-radius: 15px;
-}
-  
-.fuenteContacto {
-    font-size: 25px;
-    margin-top: 45px;
-}
-
 @media (max-width: 992px) {
     .seccioncontenido_grande {
         height: 65vh;
         
     }
-
-    .redessociales {
-        background-color: white;
-        @include size(100px, 25px);
-    }
     
     .icono{
         @include size(18px, 18px);
-    }
-
-    .fuenteContacto {
-        font-size: 15px;
-        margin-top: 15px; }
+      }
+    
 }

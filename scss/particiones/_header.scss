@@ -1,21 +1,10 @@
-.header{
-    height: 10vh;
-
-    .tituloPaginas {
-      padding: 15px;
-      background: #020024;
-      background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text;
-      font-family: Georgia, 'Times New Roman', Times, serif; 
-    }
-} 
-.seccionTitulo {
-    padding: 0px;
-    border-color: black;
-    border-radius: 25px;
-    background-color: white; 
-    border-style: groove;
+.tituloPaginas{
+  padding: 15px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
-

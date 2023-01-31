@@ -1,24 +1,15 @@
-.header {
-  height: 10vh; }
-  .header .tituloPaginas {
-    padding: 15px;
-    background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.seccionTitulo {
-  padding: 0px;
-  border-color: black;
-  border-radius: 25px;
-  background-color: white;
-  border-style: groove; }
+.tituloPaginas {
+  padding: 15px;
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .seccion__principal {
-  height: 85vh;
-  padding-top: 50px;
+  height: 100vh;
+  padding-top: 80px;
   padding-bottom: 50px;
   margin: 0px; }
 
@@ -45,7 +36,7 @@
   border-radius: 15px;
   transform: translateY(10px);
   background: #001324;
-  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); }
+  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(78, 72, 6, 0.916) 82%); }
 
 @media (max-width: 992px) {
   .seccion__principal {
@@ -56,111 +47,36 @@
     font-size: 20px; } }
 
 footer {
-  background-color: white; }
+  background-color: white;
+  height: 10vh;
+  padding-top: 3vh; }
 
 .icono {
   width: 30px;
   height: 30px; }
 
-.seccion__principal {
-  background-color: black;
-  height: 85vh;
-  padding: 8vh 0vh 0vh 0vh;
-  margin: 0px; }
-
-.mititulo {
-  height: 250px;
-  font-size: 125px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  animation-name: efecto;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in; }
-
-@keyframes efecto {
-  0% {
-    font-size: 50px;
-    background: linear-gradient(90deg, #98d7f6 0%, #00eaff 35%, #a1a1bd 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text; }
-  50% {
-    font-size: 80px;
-    background: linear-gradient(90deg, #00eaff 0%, #a1a1bd 35%, #98d7f6 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text; }
-  100% {
-    font-size: 120px;
-    background: linear-gradient(90deg, #a1a1bd 0%, #98d7f6 35%, #00eaff 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text; } }
-
-.subtitulo {
-  height: 150px;
-  color: white;
-  font-size: 30px;
-  font-family: 'Times New Roman', Times, serif; }
-
-@media (max-width: 768px) {
-  .tituloPaginas {
-    padding-top: 15px;
-    background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px; }
+@media (max-width: 992px) {
   .seccionTitulo {
     padding: 0px;
     border-style: groove;
-    border-radius: 25px;
-    background-color: white; }
-  @keyframes efecto {
-    0% {
-      font-size: 5px;
-      background: linear-gradient(90deg, #98d7f6 0%, #00eaff 35%, #a1a1bd 100%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
-    50% {
-      font-size: 15px;
-      background: linear-gradient(90deg, #00eaff 0%, #a1a1bd 35%, #98d7f6 100%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; }
-    100% {
-      font-size: 30px;
-      background: linear-gradient(90deg, #a1a1bd 0%, #98d7f6 35%, #00eaff 100%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text; } }
-  .subtitulo {
-    font-size: 25px; } }
+    border-radius: 25px; }
+  .imagenFondo {
+    padding-top: 20vh;
+    width: 90vw;
+    height: 70vh; } }
 
-.header {
-  height: 10vh; }
-  .header .tituloPaginas {
-    padding: 15px;
-    background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.seccionTitulo {
-  padding: 0px;
-  border-color: black;
-  border-radius: 25px;
-  background-color: white;
-  border-style: groove; }
+.tituloPaginas {
+  padding: 15px;
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .seccion__principal {
-  height: 85vh;
-  padding-top: 50px;
+  height: 100vh;
+  padding-top: 80px;
   padding-bottom: 50px;
   margin: 0px; }
 
@@ -187,7 +103,7 @@ footer {
   border-radius: 15px;
   transform: translateY(10px);
   background: #001324;
-  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); }
+  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(78, 72, 6, 0.916) 82%); }
 
 @media (max-width: 992px) {
   .seccion__principal {
@@ -198,7 +114,9 @@ footer {
     font-size: 20px; } }
 
 footer {
-  background-color: white; }
+  background-color: white;
+  height: 10vh;
+  padding-top: 3vh; }
 
 .icono {
   width: 30px;
@@ -255,27 +173,18 @@ footer {
       width: 14vw;
       height: 8vh; } } }
 
-.header {
-  height: 10vh; }
-  .header .tituloPaginas {
-    padding: 15px;
-    background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.seccionTitulo {
-  padding: 0px;
-  border-color: black;
-  border-radius: 25px;
-  background-color: white;
-  border-style: groove; }
+.tituloPaginas {
+  padding: 15px;
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .seccion__principal {
-  height: 85vh;
-  padding-top: 50px;
+  height: 100vh;
+  padding-top: 80px;
   padding-bottom: 50px;
   margin: 0px; }
 
@@ -302,7 +211,7 @@ footer {
   border-radius: 15px;
   transform: translateY(10px);
   background: #001324;
-  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); }
+  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(78, 72, 6, 0.916) 82%); }
 
 @media (max-width: 992px) {
   .seccion__principal {
@@ -313,7 +222,9 @@ footer {
     font-size: 20px; } }
 
 footer {
-  background-color: white; }
+  background-color: white;
+  height: 10vh;
+  padding-top: 3vh; }
 
 .icono {
   width: 30px;
@@ -373,27 +284,18 @@ footer {
     background: #001324;
     background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); } }
 
-.header {
-  height: 10vh; }
-  .header .tituloPaginas {
-    padding: 15px;
-    background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.seccionTitulo {
-  padding: 0px;
-  border-color: black;
-  border-radius: 25px;
-  background-color: white;
-  border-style: groove; }
+.tituloPaginas {
+  padding: 15px;
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .seccion__principal {
-  height: 85vh;
-  padding-top: 50px;
+  height: 100vh;
+  padding-top: 80px;
   padding-bottom: 50px;
   margin: 0px; }
 
@@ -420,7 +322,7 @@ footer {
   border-radius: 15px;
   transform: translateY(10px);
   background: #001324;
-  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); }
+  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(78, 72, 6, 0.916) 82%); }
 
 @media (max-width: 992px) {
   .seccion__principal {
@@ -431,7 +333,9 @@ footer {
     font-size: 20px; } }
 
 footer {
-  background-color: white; }
+  background-color: white;
+  height: 10vh;
+  padding-top: 3vh; }
 
 .icono {
   width: 30px;
@@ -456,27 +360,18 @@ footer {
     height: 20vh;
     margin-top: 15px; } }
 
-.header {
-  height: 10vh; }
-  .header .tituloPaginas {
-    padding: 15px;
-    background: #020024;
-    background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.seccionTitulo {
-  padding: 0px;
-  border-color: black;
-  border-radius: 25px;
-  background-color: white;
-  border-style: groove; }
+.tituloPaginas {
+  padding: 15px;
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .seccion__principal {
-  height: 85vh;
-  padding-top: 50px;
+  height: 100vh;
+  padding-top: 80px;
   padding-bottom: 50px;
   margin: 0px; }
 
@@ -503,7 +398,7 @@ footer {
   border-radius: 15px;
   transform: translateY(10px);
   background: #001324;
-  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(0, 65, 110, 0.916404) 82%); }
+  background: radial-gradient(circle, #001324 0%, rgba(3, 50, 96, 0) 46%, rgba(78, 72, 6, 0.916) 82%); }
 
 @media (max-width: 992px) {
   .seccion__principal {
@@ -514,7 +409,9 @@ footer {
     font-size: 20px; } }
 
 footer {
-  background-color: white; }
+  background-color: white;
+  height: 10vh;
+  padding-top: 3vh; }
 
 .icono {
   width: 30px;
@@ -523,36 +420,16 @@ footer {
 .seccioncontenido_grande {
   align-items: center; }
 
-.redessociales {
-  background-color: white;
-  width: 170px;
-  height: 65px;
-  border-radius: 15px; }
-
-.fuenteContacto {
-  font-size: 25px;
-  margin-top: 45px; }
-
 @media (max-width: 992px) {
   .seccioncontenido_grande {
     height: 65vh; }
-  .redessociales {
-    background-color: white;
-    width: 100px;
-    height: 25px; }
   .icono {
     width: 18px;
-    height: 18px; }
-  .fuenteContacto {
-    font-size: 15px;
-    margin-top: 15px; } }
+    height: 18px; } }
 
 * {
   margin: 0;
   padding: 0; }
-
-body {
-  background-color: black; }
 
 /* Nav-bar Style para todas las paginas*/
 .nav-center {
