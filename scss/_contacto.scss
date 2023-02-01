@@ -8,25 +8,29 @@
 .form{
     padding: 15px;
     @include size(30vw, 45vh);
-    background-color: white;
-    opacity: 95%;
+    background-color: rgba(255, 255, 255, 0.685);
+    opacity: 135%;
     position: sticky;
     border-radius: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    
 }
 
 .imagen_FondoGeneral{
     border-radius: 15px;
-    @include size(70vw, 80vh);
+    @include size(70vw, 75vh);
     position: fixed;
     opacity: 90%; 
 }
 
+.btn{
+    background-color: black;
+    border-color: black;
+}
 
-@media (max-width: 992px) {
+@media (max-width: 1070px) {
     .form{
-        @include size(30vw, 30vh);
+        @include size(35vw, 45vh);
         background-color: rgba(255, 255, 255, 0.685);
         position: sticky;
         
@@ -38,9 +42,26 @@
         position: fixed;
         opacity: 90%; 
     }
+
+    .icono{
+        @include size(18px, 18px);
+      }
     
-   
+}
+
+@media (max-width: 400px) {
+    .form{
+        @include size(65vw, 45vh);
+        contain: content;
+    }
     
+    .imagen_FondoGeneral{
+        border-radius: 15px;
+        @include size(80vw, 50vh);
+        position: fixed;
+        opacity: 90%; 
+    }
+
     .icono{
         @include size(18px, 18px);
       }

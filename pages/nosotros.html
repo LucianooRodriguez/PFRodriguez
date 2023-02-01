@@ -11,27 +11,27 @@
     <title>Nosotros</title>
 </head>
 <body>
-    
-    <header class="text-center bg-light">
-        <h1 class="text-center tituloPaginas d-none d-lg-block">
-            Vixion AudioVisual
-        </h1>
-        <nav class="d-lg-none navbar navbar-expand-lg bg-light seccionTitulo">
-            <div class="container-fluid">
-
+    <header class="fixed-top text-center">
+        <!-- Barra de navegacion -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid seccionTitulo">
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
+                <div>
+                    <a href="../index.html" target="_blank"><img src="../assets/icons/IconoVixion.jpeg" alt="logo_enlace_inicio" class="icono_Vixion"></a>
+                </div>
                 <div class="collapse navbar-collapse nav-center" id="navbarSupportedContent">
+                    
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link nav_index" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav_index" href="./nosotros.html">Nosotros</a>
+                            <a class="nav-link active nav_index" href="./nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav_index" href="./servicios.html">Servicios</a>
@@ -47,50 +47,37 @@
 
             </div>
         </nav>
+
     </header>
+    
     <main >
-        <section class="row seccion__principal">
-            <aside class="col-3 text-center aside d-none d-lg-block">
-                <ul class="nav flex-column navegador__lateral">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                    
-                </ul>
-                
-                
-            </aside>
-            <section class="col-12 col-lg-9 text-center">
-                <section class="text-center seccionsubtitulo">
-                    <p>Nosotros</p>
-                </section>
-                <section class="text-center seccioncontenido">
-                    <article>
-                        <p>
-                            Productora audiovisual desde el año 2020. Estamos para capturar y hacer infinitos tus momentos
-                            mas valiosos. Somos de Quilmes, Buenos Aires pero sin limites de lugar para producir.
-                        </p>
-                    
-                    </article>
-                    
-                </section>
-                <img src="../assets/icons/IconoVixion.jpeg" alt="logo" class="text center iconovixion">
-            </section>
+       
+        <section class="row seccion__principal container-fluid d-flex justify-content-center">
+            <div class="card" style="width: 45rem;height:40rem ;">
+                <p class="card-text text-center">¿Qué somos?</p>
+                <img src="../assets/images/IMG2.jpeg" class="card-img-top"  alt="imagen_Tucan">
+                <div class="card-body">
+                    <p class="card-text text-center">Productora audiovisual desde el año 2020.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 45rem;height:40rem ;">
+                <p class="card-text text-center">¿Qué hacemos?</p>
+                <img src="../assets/images/Img5.jpg" class="card-img-top" alt="imagen_loro">
+                <div class="card-body">
+                  <p class="card-text text-center">Estamos para capturar y hacer infinitos tus momentos mas valiosos.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 45rem;">
+                <p class="card-text text-center">Ubicación</p>
+                <img src="../assets/images/img7.jpg" class="card-img-top" alt="imagen_estacionDeQuilmes">
+                <div class="card-body">
+                  <p class="card-text text-center">Somos de Quilmes, Buenos Aires pero sin limites de lugar para producir.</p>
+                </div>
+            </div>
+            
         </section>
     </main>  
-    <footer class="text-center">
+    <footer class="fixed-bottom text-center">
         <a href="https://instagram.com/vixion.audiovisual?igshid=NTdlMDg3MTY=" target="_blank"><img src="../assets/icons/IconoInstagram.jpg" alt="logo_enlace_Instagram" class="icono instagram"></a>
         <a href="https://www.youtube.com/@vixionaudiovisual7997" target="_blank"><img src="../assets/icons/IconoYoutube.jpg" alt="logo_enlace_Youtube" class="icono youtube"></a>
         <a href="https://api.whatsapp.com/send/?phone=541137751047" target="_blank"><img src="../assets/icons/IconoWpp.jpg" alt="logo_enlace_WhatsApp" class="icono"></a>
