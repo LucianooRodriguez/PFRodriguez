@@ -8,15 +8,13 @@
   background-image: url(../assets/images/imagenFondo.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 70% 70%;
-  
+  background-size: 65% 80%;
 }
 
 .tituloIndex{
   color: white;
-  font-size: 50px;
-  font-family: cursive;
-  font-weight: bold;
+  font-size: 45px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   animation-name: home-animation;
   animation-duration: 0.7s;
 }
@@ -31,12 +29,7 @@
   }
 }
 
-.imagen_FondoIndex{
-  
-  width: 70vw;
-  height: 85vh;
-  border-radius: 35px;
-}
+
 
 @media (max-width: 992px) {
   .seccionTitulo {
@@ -45,20 +38,18 @@
     margin-right: 5px;
     margin-left: 5px;
   }
-  
-      .imagen_FondoIndex{
-        margin-top: 20vh;
-        width: 80vw;
-        height: 65vh;
-      }
+
+  .fondoInicio{
+    background-size: 75% 60%;
+  }
+
  
 }
 
 @media (max-width: 600px) {
 
-  .imagen_FondoIndex{
-    width: 90vw;
-    height: 60vh;
+  .fondoInicio{
+    background-size: 75% 40%;
   }
  
 }

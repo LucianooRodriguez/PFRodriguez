@@ -11,20 +11,21 @@
     <title>Galeria</title>
 </head>
 <body>
-    <header class="text-center bg-light seccionTitulo">
-        <h1 class="text-center tituloPaginas d-none d-lg-block">
-            Vixion AudioVisual
-        </h1>
-        <nav class="d-lg-none navbar navbar-expand-lg bg-light seccionTitulo">
-            <div class="container-fluid">
-
+    <header class="fixed-top text-center">
+        <!-- Barra de navegacion -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid seccionTitulo">
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
+                <div>
+                    <a href="../index.html" target="_blank"><img src="../assets/icons/IconoVixion.jpeg" alt="logo_enlace_inicio" class="icono_Vixion"></a>
+                </div>
                 <div class="collapse navbar-collapse nav-center" id="navbarSupportedContent">
+                    
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link nav_index" href="../index.html">Inicio</a>
@@ -33,7 +34,7 @@
                             <a class="nav-link nav_index" href="./nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav_index" href="./servicios.html">Servicios</a>
+                            <a class="nav-link active nav_index" href="./servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav_index" href="./galeria.html">Galeria</a>
@@ -46,33 +47,12 @@
 
             </div>
         </nav>
+
     </header>
     <main>
         
-        
         <section class="row seccion__principal">
-            <aside class="col-3 text-center aside d-none d-lg-block">
-                <ul class="nav flex-column navegador__lateral">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./galeria.html">Galeria</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
-                    </li>
-                    
-                </ul>
-                
-                
-            </aside>
+            
             <section class="col-12 col-lg-9 text-center">
                 <section class="text-center seccionsubtitulo">
                     <p>Galeria</p>

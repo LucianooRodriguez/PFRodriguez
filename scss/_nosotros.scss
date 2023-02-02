@@ -5,8 +5,47 @@
 @import "./particiones/footer";
 
 
+.seccion__nosotros{
+  height: 70vh;
+  padding-top: 80px;
+  margin-bottom: 15px;
+}
 .card{
-  border-color: transparent;
+  width: 60vw;
+  height: 50vh;
+  border-color: black;
+  border-width: 8px;
   font-style: italic;
   font-size: 20px;
+  align-items: center;
+  
+}
+
+.card-img-top {
+  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  @include size(50%,70%);
+}
+
+@media (max-width: 1093px) {
+  .card{
+    font-size: 15px;
+    width: 75vw;
+  }
+
+ 
+}
+
+@media (max-width: 500px) {
+  .card{
+    font-size: 10px;
+    width: 90vw;
+  }
+
+  .card-img-top {
+    @include size(70%,70%);
+  }
+
+ 
 }
