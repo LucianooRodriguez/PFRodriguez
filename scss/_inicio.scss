@@ -4,7 +4,39 @@
 @import"./particiones/main";
 @import "./particiones/footer";
 
+.fondoInicio{
+  background-image: url(../assets/images/imagenFondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% 70%;
+  
+}
 
+.tituloIndex{
+  color: white;
+  font-size: 50px;
+  font-family: cursive;
+  font-weight: bold;
+  animation-name: home-animation;
+  animation-duration: 0.7s;
+}
+
+@keyframes home-animation {
+  from {
+      transform: translate(-400px, -200px);
+  }
+
+  to {
+      transform: translate(0px, -200px);
+  }
+}
+
+.imagen_FondoIndex{
+  
+  width: 70vw;
+  height: 85vh;
+  border-radius: 35px;
+}
 
 @media (max-width: 992px) {
   .seccionTitulo {
@@ -13,10 +45,11 @@
     margin-right: 5px;
     margin-left: 5px;
   }
+  
       .imagen_FondoIndex{
-        padding-top: 15vh;
+        margin-top: 20vh;
         width: 80vw;
-        height: 85vh;
+        height: 65vh;
       }
  
 }
@@ -24,7 +57,6 @@
 @media (max-width: 600px) {
 
   .imagen_FondoIndex{
-    padding-top: 25vh;
     width: 90vw;
     height: 60vh;
   }

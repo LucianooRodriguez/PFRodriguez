@@ -18,7 +18,7 @@
 
 .imagen_FondoGeneral{
     border-radius: 15px;
-    @include size(70vw, 75vh);
+    @include size(70vw, 70vh);
     position: fixed;
     opacity: 90%; 
 }
