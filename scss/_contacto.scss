@@ -4,24 +4,27 @@
 @import"./particiones/main";
 @import "./particiones/footer";
 
+.seccion__contacto{
+    padding-top: 45vh;
+    background-image: url(../assets/images/Img4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+    
+}
 
 .form{
     padding: 15px;
     @include size(30vw, 45vh);
+    font-size: 25px;
     background-color: rgba(255, 255, 255, 0.685);
     opacity: 135%;
-    position: sticky;
     border-radius: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
-.imagen_FondoGeneral{
-    border-radius: 15px;
-    @include size(70vw, 70vh);
-    position: fixed;
-    opacity: 90%; 
-}
+
 
 .btn{
     background-color: black;
@@ -31,17 +34,10 @@
 @media (max-width: 1070px) {
     .form{
         @include size(35vw, 45vh);
-        background-color: rgba(255, 255, 255, 0.685);
-        position: sticky;
-        
+        font-size: 15px;
+        margin: 0px;
     }
     
-    .imagen_FondoGeneral{
-        border-radius: 15px;
-        @include size(80vw, 60vh);
-        position: fixed;
-        opacity: 90%; 
-    }
 
     .icono{
         @include size(18px, 18px);
@@ -52,18 +48,17 @@
 @media (max-width: 400px) {
     .form{
         @include size(65vw, 45vh);
-        contain: content;
+        justify-items: center;
     }
     
-    .imagen_FondoGeneral{
-        border-radius: 15px;
-        @include size(80vw, 50vh);
-        position: fixed;
-        opacity: 90%; 
-    }
-
     .icono{
         @include size(18px, 18px);
       }
+
+    .btn{
+        background-color: black;
+        border-color: black;
+        
+    }
     
 }

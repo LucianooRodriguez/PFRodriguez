@@ -13,6 +13,8 @@
     height: 30vh;
     width: 70vw;
     border-radius: 25px;
+    border-left: 10px;
+    border-right: 10px;
     border-color: black;
     border-style: groove;
 }
@@ -23,20 +25,18 @@
 
 }
 
-.carousel-control-prev-icon{
-    color: black;
+#boton_carrusel{
+    background-color: black;
 }
 
+.imagen_card{
+    padding-top: 15px;
+    border-radius: 45px;
+}
 
-
-@media (max-width: 992px) {
-    .carousel {
-        height: 45vh; }
-    .carousel-inner {
-        transform: translateY(140px);
-        color: white; }
-    .form {
-        @include size(50vw, 40vh); }
-    
-    
+.imagen_ilustrativa{
+    width: 18vw;
+    height: 25vh;
+    border-radius: 15px;
+    padding-bottom: 5px;
 }
