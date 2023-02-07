@@ -1,26 +1,3 @@
-.tituloPaginas {
-  padding: 15px;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.seccion__principal {
-  height: 105vh;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  margin: 0px; }
-
-@media (max-width: 992px) {
-  .seccion__principal {
-    padding: 0px;
-    height: 90vh; }
-  .seccionsubtitulo {
-    margin: 0px;
-    font-size: 20px; } }
-
 footer {
   background-color: white;
   height: 10vh;
@@ -30,16 +7,21 @@ footer {
   width: 30px;
   height: 30px; }
 
-.fondoInicio {
+.seccion__principal {
+  height: 90vh;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin: 0px;
   background-image: url(../assets/images/imagenFondo.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 65% 80%; }
+  background-size: 65% 100%; }
 
 .tituloIndex {
+  padding-top: 20px;
   color: white;
-  font-size: 45px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
   animation-name: home-animation;
   animation-duration: 0.7s; }
 
@@ -50,6 +32,9 @@ footer {
     transform: translate(0px, -200px); } }
 
 @media (max-width: 992px) {
+  .seccion__principal {
+    padding: 0px;
+    height: 90vh; }
   .seccionTitulo {
     padding: 0px;
     border-radius: 25px;
@@ -62,29 +47,6 @@ footer {
   .fondoInicio {
     background-size: 75% 40%; } }
 
-.tituloPaginas {
-  padding: 15px;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.seccion__principal {
-  height: 105vh;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  margin: 0px; }
-
-@media (max-width: 992px) {
-  .seccion__principal {
-    padding: 0px;
-    height: 90vh; }
-  .seccionsubtitulo {
-    margin: 0px;
-    font-size: 20px; } }
-
 footer {
   background-color: white;
   height: 10vh;
@@ -95,60 +57,50 @@ footer {
   height: 30px; }
 
 .seccion__nosotros {
-  height: 70vh;
   padding-top: 80px;
-  margin-bottom: 15px; }
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  background-image: url(../assets/icons/IconoVixion.jpeg);
+  background-size: 4% 4%; }
 
 .card {
-  width: 60vw;
-  height: 50vh;
-  border-color: black;
-  border-width: 8px;
-  font-style: italic;
+  width: 50vw;
+  height: 55vh;
+  border-color: white;
+  border-width: 2px;
   font-size: 20px;
-  align-items: center; }
+  font-weight: lighter;
+  align-items: center;
+  background-color: black;
+  color: white; }
 
 .card-img-top {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  border-color: white;
+  border-width: 8px;
   width: 50%;
   height: 70%; }
 
 @media (max-width: 1093px) {
+  .seccion__nosotros {
+    background-size: 7% 7%; }
   .card {
     font-size: 15px;
-    width: 75vw; } }
-
-@media (max-width: 500px) {
-  .card {
-    font-size: 10px;
-    width: 90vw; }
+    width: 65vw; }
   .card-img-top {
-    width: 70%;
+    width: 75%;
     height: 70%; } }
 
-.tituloPaginas {
-  padding: 15px;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.seccion__principal {
-  height: 105vh;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  margin: 0px; }
-
-@media (max-width: 992px) {
-  .seccion__principal {
-    padding: 0px;
-    height: 90vh; }
-  .seccionsubtitulo {
-    margin: 0px;
-    font-size: 20px; } }
+@media (max-width: 500px) {
+  .seccion__nosotros {
+    background-size: 50% 50%; }
+  .card {
+    font-size: 15px;
+    width: 90vw; }
+  .card-img-top {
+    width: 90%;
+    height: 70%; } }
 
 footer {
   background-color: white;
@@ -160,57 +112,42 @@ footer {
   height: 30px; }
 
 .seccion__servicios {
-  height: 100vh;
-  padding-top: 80px; }
+  padding-top: 80px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  background-image: url(../assets/icons/IconoVixion.jpeg);
+  background-size: 4% 4%; }
 
-.carousel {
-  height: 30vh;
-  width: 70vw;
-  border-radius: 25px;
-  border-left: 10px;
-  border-right: 10px;
-  border-color: black;
-  border-style: groove; }
-
-.imagen_banner {
-  height: 29.5vh;
-  width: 70%; }
-
-#boton_carrusel {
-  background-color: black; }
+.tarjetas_servicios {
+  width: 55vw;
+  height: 55vh;
+  border-color: white;
+  border-width: 2px;
+  font-size: 18px;
+  font-weight: lighter;
+  align-items: center;
+  background-color: black;
+  color: white; }
 
 .imagen_card {
-  padding-top: 15px;
-  border-radius: 45px; }
+  margin-top: 45px;
+  border-radius: 25px;
+  border-color: white;
+  border-width: 2px;
+  border-style: groove; }
 
 .imagen_ilustrativa {
-  width: 18vw;
-  height: 25vh;
+  width: 22vw;
+  height: 30vh;
   border-radius: 15px;
-  padding-bottom: 5px; }
+  margin-bottom: 45px; }
 
-.tituloPaginas {
-  padding: 15px;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.seccion__principal {
-  height: 105vh;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  margin: 0px; }
-
-@media (max-width: 992px) {
-  .seccion__principal {
-    padding: 0px;
-    height: 90vh; }
-  .seccionsubtitulo {
-    margin: 0px;
-    font-size: 20px; } }
+@media (max-width: 1093px) {
+  .seccion__servicios {
+    background-size: 8% 8%; }
+  .tarjetas_servicios {
+    font-size: 20px;
+    width: 85vw; } }
 
 footer {
   background-color: white;
@@ -221,47 +158,59 @@ footer {
   width: 30px;
   height: 30px; }
 
-.moverimagen {
-  height: 45vh;
-  align-items: center;
-  padding: 0px;
-  margin: 0px;
-  border-radius: 25px; }
+.seccion_galeria {
+  margin-top: 100px;
+  width: 100vw;
+  height: 125vh;
+  background-image: url(../assets/icons/IconoVixion.jpeg);
+  background-size: 4% 6%; }
+
+.tarjeta_galeria {
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  gap: 5px;
+  padding: .4em;
+  background-color: transparent;
+  border-color: transparent; }
+
+.tarjeta_galeria p {
+  height: 80%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: black;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.tarjeta_galeria p:hover {
+  flex: 4; }
+
+.tarjeta_galeria p span {
+  width: 50vw;
+  padding: .5em;
+  text-align: center;
+  transition: all .5s;
+  text-transform: uppercase;
+  color: #ff568e;
+  letter-spacing: .1em; }
+
+.tarjeta_galeria p:hover span {
+  transform: rotate(0); }
 
 @media (max-width: 992px) {
-  .moverimagen {
-    align-items: center;
-    width: 60%;
-    height: 60%;
-    margin: 0px;
-    padding: 0px; }
-  iframe {
-    width: 50vw;
-    height: 20vh;
-    margin-top: 15px; } }
-
-.tituloPaginas {
-  padding: 15px;
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.seccion__principal {
-  height: 105vh;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  margin: 0px; }
-
-@media (max-width: 992px) {
-  .seccion__principal {
-    padding: 0px;
-    height: 90vh; }
-  .seccionsubtitulo {
-    margin: 0px;
-    font-size: 20px; } }
+  .tarjeta_galeria {
+    width: 100vw; }
+  .imagen_galeria {
+    width: 90%;
+    height: 65%; }
+  .iframe {
+    width: 90%;
+    height: 65%; } }
 
 footer {
   background-color: white;
@@ -273,13 +222,15 @@ footer {
   height: 30px; }
 
 .seccion__contacto {
-  padding-top: 45vh;
+  margin-top: 10vh;
+  height: 80vh;
   background-image: url(../assets/images/Img4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 60% 100%; }
 
 .form {
+  margin-top: 15vh;
   padding: 15px;
   width: 30vw;
   height: 45vh;
@@ -294,26 +245,25 @@ footer {
   border-color: black; }
 
 @media (max-width: 1070px) {
+  .seccion__contacto {
+    background-size: 80% 100%; }
   .form {
     width: 35vw;
     height: 45vh;
-    font-size: 15px;
-    margin: 0px; }
+    font-size: 15px; }
   .icono {
     width: 18px;
     height: 18px; } }
 
 @media (max-width: 400px) {
+  .seccion__contacto {
+    background-size: 95% 80%; }
   .form {
-    width: 65vw;
-    height: 45vh;
-    justify-items: center; }
+    width: 70vw;
+    height: 45vh; }
   .icono {
     width: 18px;
-    height: 18px; }
-  .btn {
-    background-color: black;
-    border-color: black; } }
+    height: 18px; } }
 
 * {
   margin: 0;

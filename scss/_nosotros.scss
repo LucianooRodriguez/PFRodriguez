@@ -1,50 +1,64 @@
 @import"./particiones/variables";
 @import"./particiones/mixins";
-@import"./particiones/header";
-@import"./particiones/main";
 @import "./particiones/footer";
 
 
 .seccion__nosotros{
-  height: 70vh;
   padding-top: 80px;
+  padding-bottom: 20px;
   margin-bottom: 15px;
+  background-image: url(../assets/icons/IconoVixion.jpeg);
+  background-size: 4% 4%;
 }
 .card{
-  width: 60vw;
-  height: 50vh;
-  border-color: black;
-  border-width: 8px;
-  font-style: italic;
+  width: 50vw;
+  height: 55vh;
+  border-color: white;
+  border-width: 2px;
   font-size: 20px;
+  font-weight: lighter;
   align-items: center;
-  
+  background-color: black;
+  color: white;
 }
 
 .card-img-top {
-  
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  border-color:white;
+  border-width: 8px;
   @include size(50%,70%);
 }
 
 @media (max-width: 1093px) {
-  .card{
-    font-size: 15px;
-    width: 75vw;
+  .seccion__nosotros{
+    background-size: 7% 7%;
+    
   }
 
- 
+  .card{
+    font-size: 15px;
+    width: 65vw;
+  }
+
+  .card-img-top {
+    @include size(75%,70%);
+  }
+
 }
 
 @media (max-width: 500px) {
+  .seccion__nosotros{
+    background-size: 50% 50%;
+    
+  }
   .card{
-    font-size: 10px;
+    font-size: 15px;
     width: 90vw;
   }
 
   .card-img-top {
-    @include size(70%,70%);
+    @include size(90%,70%);
   }
 
  

@@ -1,27 +1,71 @@
 @import"./particiones/variables";
 @import"./particiones/mixins";
-@import"./particiones/header";
-@import"./particiones/main";
 @import "./particiones/footer";
 
-.moverimagen{
-    height:45vh;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 25px;
+.seccion_galeria{
+    margin-top: 100px;
+    width: 100vw;
+    height: 125vh;
+    background-image: url(../assets/icons/IconoVixion.jpeg);
+    background-size:4% 6%;
 }
+.tarjeta_galeria{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+  .tarjeta_galeria p {
+    height: 80%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: black;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tarjeta_galeria p:hover {
+    flex: 4;
+  }
+  
+  .tarjeta_galeria p span {
+    width: 50vw;
+    padding: .5em;
+    text-align: center;
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #ff568e;
+    letter-spacing: .1em;
+  }
+  
+  .tarjeta_galeria p:hover span {
+    transform: rotate(0);
+  }
 
+  
+
+ 
 @media (max-width: 992px) {
-    .moverimagen {
-        align-items: center;
-        @include size(60%, 60%); 
-        margin: 0px;
-        padding: 0px;
-        
-    }
-    iframe {
-        @include size(50vw, 20vh);
-        margin-top: 15px; }
+  .tarjeta_galeria{
+    width: 100vw;
+  }
+   .imagen_galeria{
+    width: 90%;
+    height: 65%;
+   }
+
+   .iframe{
+    width: 90%;
+    height: 65%;
+   }
 
 }
