@@ -1,5 +1,6 @@
 @import"./particiones/variables";
 @import"./particiones/mixins";
+@import"./particiones/header";
 @import "./particiones/footer";
 
 
@@ -12,21 +13,20 @@
 }
 .card{
   padding-top: 5px;
-  width: 50vw;
-  height: 55vh;
-  border-color: white;
+  @include size(50vw, 55vh);
+  border-color: $color-blanco;
   border-width: 2px;
   font-size: 20px;
   font-weight: lighter;
   align-items: center;
   background-color: black;
-  color: white;
+  color: $color-blanco;
 }
 
 .card-img-top {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  border-color:white;
+  border-color:$color-blanco;
   border-width: 8px;
   @include size(50%,70%);
 }
@@ -61,6 +61,4 @@
   .card-img-top {
     @include size(90%,70%);
   }
-
- 
 }

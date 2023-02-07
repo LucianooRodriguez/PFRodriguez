@@ -1,5 +1,6 @@
 @import"./particiones/variables";
 @import"./particiones/mixins";
+@import"./particiones/header";
 @import"./particiones/footer";
 
 .seccion__servicios{
@@ -11,8 +12,7 @@
 }
 
 .tarjetas_servicios{
-    width: 50vw;
-    height: 65vh;
+    @include size(50vw, 65vh);
     border-color: white;
     border-width: 2px;
     font-size: 18px;
@@ -32,14 +32,13 @@
 }
 
 .imagen_ilustrativa{
-    width: 50%;
-    height: 50%;
+    @include size(50%, 50%);
     border-radius: 15px;
     margin-bottom: 80px;
 }
 
 .marcaAgua{
-  color: white !important;
+  color: $color-blanco !important;
 }
 
 @media (max-width: 1093px) {
