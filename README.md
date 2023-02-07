@@ -1,2 +1,2 @@
 # PFRodriguez
-Mi proyecto de coderhouse para la entrega final.
+Proyecto realizado para la entrega final del curso de desarrollo web de CoderHouse.
