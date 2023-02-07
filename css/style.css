@@ -33,19 +33,11 @@ footer {
 
 @media (max-width: 992px) {
   .seccion__principal {
-    padding: 0px;
-    height: 90vh; }
-  .seccionTitulo {
-    padding: 0px;
-    border-radius: 25px;
-    margin-right: 5px;
-    margin-left: 5px; }
-  .fondoInicio {
-    background-size: 75% 60%; } }
+    background-size: 80% 75%; } }
 
 @media (max-width: 600px) {
-  .fondoInicio {
-    background-size: 75% 40%; } }
+  .seccion__principal {
+    background-size: 95% 55%; } }
 
 footer {
   background-color: white;
@@ -64,6 +56,7 @@ footer {
   background-size: 4% 4%; }
 
 .card {
+  padding-top: 5px;
   width: 50vw;
   height: 55vh;
   border-color: white;
@@ -120,7 +113,7 @@ footer {
 
 .tarjetas_servicios {
   width: 55vw;
-  height: 55vh;
+  height: 60vh;
   border-color: white;
   border-width: 2px;
   font-size: 18px;
@@ -137,10 +130,10 @@ footer {
   border-style: groove; }
 
 .imagen_ilustrativa {
-  width: 22vw;
-  height: 30vh;
+  width: 25vw;
+  height: 32vh;
   border-radius: 15px;
-  margin-bottom: 45px; }
+  margin-bottom: 80px; }
 
 @media (max-width: 1093px) {
   .seccion__servicios {
@@ -148,6 +141,10 @@ footer {
   .tarjetas_servicios {
     font-size: 20px;
     width: 85vw; } }
+
+@media (max-width: 600px) {
+  .tarjetas_servicios {
+    font-size: 18px; } }
 
 footer {
   background-color: white;
@@ -159,7 +156,7 @@ footer {
   height: 30px; }
 
 .seccion_galeria {
-  margin-top: 100px;
+  margin-top: 80px;
   width: 100vw;
   height: 125vh;
   background-image: url(../assets/icons/IconoVixion.jpeg);
@@ -205,9 +202,11 @@ footer {
 @media (max-width: 992px) {
   .tarjeta_galeria {
     width: 100vw; }
+  .tarjeta_galeria p span {
+    width: 80vw; }
   .imagen_galeria {
-    width: 90%;
-    height: 65%; }
+    width: 95%;
+    height: 95%; }
   .iframe {
     width: 90%;
     height: 65%; } }
@@ -248,7 +247,7 @@ footer {
   .seccion__contacto {
     background-size: 80% 100%; }
   .form {
-    width: 35vw;
+    width: 60vw;
     height: 45vh;
     font-size: 15px; }
   .icono {
@@ -257,13 +256,17 @@ footer {
 
 @media (max-width: 400px) {
   .seccion__contacto {
-    background-size: 95% 80%; }
+    background-size: 95% 85%; }
   .form {
-    width: 70vw;
+    width: 80vw;
     height: 45vh; }
   .icono {
     width: 18px;
-    height: 18px; } }
+    height: 18px; }
+  .btn {
+    width: 60px;
+    height: 40px;
+    font-size: 10px; } }
 
 * {
   margin: 0;

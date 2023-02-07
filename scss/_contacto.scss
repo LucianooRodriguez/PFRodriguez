@@ -5,7 +5,7 @@
 
 .seccion__contacto{
     margin-top: 10vh;
-    height: 80vh;
+    height: 80vh; 
     background-image: url(../assets/images/Img4.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 
     .form{
        
-        @include size(35vw, 45vh);
+        @include size(60vw, 45vh);
         font-size: 15px;
         
     }
@@ -51,12 +51,12 @@
 
 @media (max-width: 400px) {
     .seccion__contacto{
-        background-size: 95% 80%;
+        background-size: 95% 85%;
         
     }
 
     .form{
-        @include size(70vw, 45vh);
+        @include size(80vw, 45vh);
         
     }
     
@@ -64,5 +64,9 @@
         @include size(18px, 18px);
       }
 
-    
+      .btn{
+        width: 60px;
+        height: 40px;
+        font-size: 10px;
+    }
 }

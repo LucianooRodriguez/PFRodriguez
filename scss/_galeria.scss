@@ -3,7 +3,7 @@
 @import "./particiones/footer";
 
 .seccion_galeria{
-    margin-top: 100px;
+    margin-top: 80px;
     width: 100vw;
     height: 125vh;
     background-image: url(../assets/icons/IconoVixion.jpeg);
@@ -19,7 +19,7 @@
     border-color: transparent;
   }
   
-  .tarjeta_galeria p {
+  .tarjeta_galeria p { 
     height: 80%;
     flex: 1;
     overflow: hidden;
@@ -58,9 +58,14 @@
   .tarjeta_galeria{
     width: 100vw;
   }
+
+  .tarjeta_galeria p span {
+    width: 80vw;
+    
+  }
    .imagen_galeria{
-    width: 90%;
-    height: 65%;
+    width: 95%;
+    height: 95%;
    }
 
    .iframe{

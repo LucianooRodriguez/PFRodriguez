@@ -39,28 +39,18 @@
 
 @media (max-width: 992px) {
   .seccion__principal{
-    padding: 0px;
-    height: 90vh;
+    background-size: 80% 75%;
   }
 
-  .seccionTitulo {
-    padding: 0px;
-    border-radius: 25px;
-    margin-right: 5px;
-    margin-left: 5px;
-  }
-
-  .fondoInicio{
-    background-size: 75% 60%;
-  }
-
+  
  
 }
 
 @media (max-width: 600px) {
-
-  .fondoInicio{
-    background-size: 75% 40%;
+  .seccion__principal{
+    background-size: 95% 55%;
   }
+
+
  
 }
