@@ -11,8 +11,8 @@
 }
 
 .tarjetas_servicios{
-    width: 55vw;
-    height: 60vh;
+    width: 50vw;
+    height: 65vh;
     border-color: white;
     border-width: 2px;
     font-size: 18px;
@@ -28,14 +28,18 @@
     border-radius: 25px;
     border-color: white;
     border-width: 2px;
-    border-style: groove;
+    border-style: $border-style;
 }
 
 .imagen_ilustrativa{
-    width: 25vw;
-    height: 32vh;
+    width: 50%;
+    height: 50%;
     border-radius: 15px;
     margin-bottom: 80px;
+}
+
+.marcaAgua{
+  color: white !important;
 }
 
 @media (max-width: 1093px) {
